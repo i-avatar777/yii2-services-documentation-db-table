@@ -1,6 +1,6 @@
 <?php
 
-namespace common\services\documentation;
+namespace iAvatar777\services\DbTable;
 
 use common\models\information_schema\InnoDbColumn;
 use common\models\information_schema\InnoDbTable;
