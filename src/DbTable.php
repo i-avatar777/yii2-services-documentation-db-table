@@ -1,6 +1,5 @@
 <?php
 
-
 namespace common\services\documentation;
 
 use common\models\information_schema\InnoDbColumn;
