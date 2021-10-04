@@ -2,10 +2,6 @@
 
 namespace iAvatar777\services\DbTable;
 
-use common\models\information_schema\InnoDbColumn;
-use common\models\information_schema\InnoDbTable;
-use cs\services\Str;
-use cs\services\VarDumper;
 use yii\base\Widget;
 use yii\db\Connection;
 use yii\helpers\ArrayHelper;
