@@ -55,8 +55,10 @@ class DbTable extends Widget
     public function init()
     {
         $componentDbInfo = $this->componentDbInfo;
+
         /** @var Connection $db */
         $db = \Yii::$app->$componentDbInfo;
+
         /** @var Connection $db */
         $dbMain = \Yii::$app->db;
         $dbName = $this->getDB($dbMain->dsn);
