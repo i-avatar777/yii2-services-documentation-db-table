@@ -15,4 +15,9 @@ class InnoDbColumn extends \yii\db\ActiveRecord
     {
         return \Yii::$app->dbInfo;
     }
+
+    public static function tableName()
+    {
+        return 'INNODB_COLUMNS';
+    }
 }
